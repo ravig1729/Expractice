@@ -1,0 +1,38 @@
+h1{
+    color:rgb(74, 144, 153);
+}
+
+.container{
+    background-color: bisque;
+    display:flex;
+    flex-direction:column;
+    /* justify-content:space-around; */
+    align-items:flex-end;
+}
+
+.box{
+    height:100px;
+    width:100px;
+    background-color: aqua;
+    margin:20px;
+    padding:20px;
+    /* display:inline; */
+    /* display : inline-block;   */
+    /* display:none; */
+}
+
+.container1{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.boz{
+    height:300px;
+    width:300px;
+    background-color: aqua;
+    margin:20px;
+    padding:20px;
+}
