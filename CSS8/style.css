@@ -1,0 +1,19 @@
+.box{
+    height:100px;
+    width:100px;
+    background-color: #5f9ea0;
+    margin:20px;
+    display:inline-block;
+}
+
+@media screen and (min-width:200px) and (max-width:400px) {
+    h1{
+        color:red;
+    }
+    .box{
+        height:50px;
+        width:200px;
+        background-color: crimson;
+        margin:10px;
+    }
+}
